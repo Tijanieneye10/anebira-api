@@ -1,0 +1,13 @@
+###
+POST http://localhost:5000/api/words
+Content-Type: application/json
+
+{
+  "word": "Varisa",
+  "definition": "I am coming",
+  "category": "Noun"
+}
+
+###
+GET http://localhost:5000/api/words?q=Mave
+Content-Type: application/json
